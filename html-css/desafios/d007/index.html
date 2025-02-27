@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagem flexível</title>
+</head>
+<body>
+    <h1>Imagem Flexível</h1>
+    <p>Voçê está vendo a imagem completa? Experimente ampliar o tamanho da sua janela para aproveitar a melhor experiência &#x2B50</p>
+    <picture>
+        <source media="(max-width: 600px)" srcset="imagens/canoa-p.jpeg">
+        <source media="(max-width: 1000px)" srcset="imagens/canoa-m.jpeg">
+        <img src="imagens/canoa-g.jpeg" alt="Barco">
+    </picture>
+</body>
+</html>
